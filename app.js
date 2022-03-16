@@ -10,7 +10,6 @@ function toggleSvgSprite(){
 	svg.setAttribute('style', 'fill: black; width: 32px');
 	svg.innerHTML = "<use xlink:href='/sprite.svg#action-add'></use>";
 	document.querySelector('#svgExample').append(svg);
-	done = true;
 }
 
 function toggleImg(){
@@ -24,7 +23,6 @@ function toggleImg(){
 	img.setAttribute('style', 'width: 32px');
 	img.src = "/cat.png"
 	document.querySelector('#pngExample').append(img);
-	done = true;
 }
 
 setInterval(() => {
