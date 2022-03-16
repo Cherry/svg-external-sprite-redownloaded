@@ -13,7 +13,7 @@ Illustrative repo demonstrating SVG sprite being always downloaded when DOM is r
 
 ![](https://up.jross.me/mvvfca19)
 - `sprite.svg` can be seen to be requested every second, despite already been downloaded, and one version still present on the page
-- https://bugs.webkit.org/show_bug.cgi?id=237968
+- https://bugs.chromium.org/p/chromium/issues/detail?id=1306881
 
 ### Safari
 
